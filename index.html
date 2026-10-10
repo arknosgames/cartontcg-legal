@@ -5,15 +5,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>CartonTCG · CartonTCG</title>
 <style>
-  :root { color-scheme: light dark; --brand: #5B3CC4; }
+  :root { color-scheme: light dark; --brand: #94713F; --link: #94713F; }
+  @media (prefers-color-scheme: dark) { :root { --link: #EAD5AE; } }
   body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; line-height: 1.6; margin: 0;
          background: Canvas; color: CanvasText; }
-  header { background: var(--brand); color: #fff; padding: 24px 16px; }
+  header { background: linear-gradient(135deg, #BF9D66, #9A7845 55%, #5E4427); color: #fff; padding: 24px 16px; }
   header a { color: #fff; text-decoration: none; font-weight: 700; }
   main { max-width: 760px; margin: 0 auto; padding: 16px 16px 48px; }
   h1 { font-size: 1.7rem; margin: 8px 0 0; }
   h2 { font-size: 1.15rem; margin-top: 28px; }
-  nav a { margin-right: 16px; color: var(--brand); }
+  nav a { margin-right: 16px; color: var(--link); }
+  main a { color: var(--link); }
   footer { color: GrayText; font-size: .9rem; margin-top: 40px; }
 </style>
 </head>
